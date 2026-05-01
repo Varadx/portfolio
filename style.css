@@ -78,6 +78,8 @@ section {
     height: auto;          
     border-radius: 8px;
     margin-bottom: 15px;
+    border: 4px solid #38bdf8;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
 }
 
 footer {
@@ -85,4 +87,16 @@ footer {
     padding: 20px;
     background: #020617;
     font-size: 14px;
+}
+
+.about-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
+    display: block;
+    margin: 0 auto;
 }
